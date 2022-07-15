@@ -1,0 +1,166 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug swift-colorful",
+            "program": ".build/debug/swift-colorful",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-colorful}",
+            "preLaunchTask": "swift: Build Debug swift-colorful"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release swift-colorful",
+            "program": ".build/release/swift-colorful",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-colorful}",
+            "preLaunchTask": "swift: Build Release swift-colorful"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug DemoColorBlend-macOS",
+            "program": ".build/debug/DemoColorBlend-macOS",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-colorful}",
+            "preLaunchTask": "swift: Build Debug DemoColorBlend-macOS"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release DemoColorBlend-macOS",
+            "program": ".build/release/DemoColorBlend-macOS",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-colorful}",
+            "preLaunchTask": "swift: Build Release DemoColorBlend-macOS"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug DemoColorDist-macOS",
+            "program": ".build/debug/DemoColorDist-macOS",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-colorful}",
+            "preLaunchTask": "swift: Build Debug DemoColorDist-macOS"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release DemoColorDist-macOS",
+            "program": ".build/release/DemoColorDist-macOS",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-colorful}",
+            "preLaunchTask": "swift: Build Release DemoColorDist-macOS"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug DemoShared",
+            "program": ".build/debug/DemoShared",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-colorful}",
+            "preLaunchTask": "swift: Build Debug DemoShared"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release DemoShared",
+            "program": ".build/release/DemoShared",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-colorful}",
+            "preLaunchTask": "swift: Build Release DemoShared"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug DemoColorGens-macOS",
+            "program": ".build/debug/DemoColorGens-macOS",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-colorful}",
+            "preLaunchTask": "swift: Build Debug DemoColorGens-macOS"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release DemoColorGens-macOS",
+            "program": ".build/release/DemoColorGens-macOS",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-colorful}",
+            "preLaunchTask": "swift: Build Release DemoColorGens-macOS"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug DemoGradientGen-macOS",
+            "program": ".build/debug/DemoGradientGen-macOS",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-colorful}",
+            "preLaunchTask": "swift: Build Debug DemoGradientGen-macOS"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release DemoGradientGen-macOS",
+            "program": ".build/release/DemoGradientGen-macOS",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-colorful}",
+            "preLaunchTask": "swift: Build Release DemoGradientGen-macOS"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug DemoPaletteGens-macOS",
+            "program": ".build/debug/DemoPaletteGens-macOS",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-colorful}",
+            "preLaunchTask": "swift: Build Debug DemoPaletteGens-macOS"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release DemoPaletteGens-macOS",
+            "program": ".build/release/DemoPaletteGens-macOS",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-colorful}",
+            "preLaunchTask": "swift: Build Release DemoPaletteGens-macOS"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug DemoColorSort-macOS",
+            "program": ".build/debug/DemoColorSort-macOS",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-colorful}",
+            "preLaunchTask": "swift: Build Debug DemoColorSort-macOS"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release DemoColorSort-macOS",
+            "program": ".build/release/DemoColorSort-macOS",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-colorful}",
+            "preLaunchTask": "swift: Build Release DemoColorSort-macOS"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug Benchmark-macOS",
+            "program": ".build/debug/Benchmark-macOS",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-colorful}",
+            "preLaunchTask": "swift: Build Debug Benchmark-macOS"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release Benchmark-macOS",
+            "program": ".build/release/Benchmark-macOS",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-colorful}",
+            "preLaunchTask": "swift: Build Release Benchmark-macOS"
+        }
+    ]
+}
